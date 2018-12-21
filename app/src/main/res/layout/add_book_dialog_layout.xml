@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/authorName"
+        android:hint="Author Name"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/authorID"
+        android:hint="Author ID"
+        android:gravity="center"
+        android:visibility="visible"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookTitle"
+        android:hint="Book Title"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookPage"
+        android:hint="Book Page"
+        android:inputType="number"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookDateCreated"
+        android:hint="Date Created"
+        android:gravity="center"
+        android:inputType="date"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookDesc"
+        android:hint="Description"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:maxLines="3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookThumb"
+        android:hint="Thumb Url"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:maxLines="3"/>
+
+</LinearLayout>
